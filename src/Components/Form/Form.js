@@ -1,4 +1,5 @@
 import React from "react";
+import "./Form.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 const Form = () => {
@@ -14,7 +15,7 @@ const Form = () => {
         <input type="password" id="password" />
       </div>
       <div className="captcha">
-        <label htmlFor="captcha">Enter Captcha</label>
+        <label htmlFor="captcha-input">Enter Captcha</label>
         <div className="preview"></div>
         <div className="captcha-form">
           <input
@@ -28,7 +29,7 @@ const Form = () => {
         </div>
       </div>
       <div className="form-input">
-        <button className="login-btn">Login</button>
+        <button id="login-btn">Login</button>
       </div>
     </div>
   );
