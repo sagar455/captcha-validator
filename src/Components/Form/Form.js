@@ -5,7 +5,7 @@ import { faArrowsRotate } from "@fortawesome/free-solid-svg-icons";
 const Form = () => {
   return (
     <div className="login-form">
-      <div className="form-title">Login</div>
+      <div className="form-title">Login to yuou account</div>
       <div className="form-input">
         <label htmlFor="username">Username</label>
         <input type="text" id="username" />
